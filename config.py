@@ -10,7 +10,7 @@ class Config:
     DATABASE_URI = os.environ.get("DATABASE_URI", "")
     DATABASE_NAME = os.environ.get("DATABASE_NAME","")
     COLLECTION_NAME = os.environ.get('COLLECTION_NAME', 'Forward_data')
-    SESSION = os.environ.get("SESSION", "BQFzD0YAK2-CSLK77m3H5tTlOyRRmk5WXSaEieDW4iQ3sq73AUedHWR89kIDeDYoKC8MCcrHP_vRssKduPw2Pxq-0fEJ2saOBRltj7jdEYlrHHF-2JfyLnweO-cWB8HNZ8lbWHonh9nMc7McENva4jOnvVZ1VRrUuy4MnawSMtstecwCjoA_13vVRgu2Dzu8yBJxRlou9ltbdu02KWJFu01_6cDLWLP-Rj3wtbfzF8bGW1FNCvtgEhO-tE4jnLVI12JufTqq9k6Vv76RpugPCFfGNPxVSSFN8skmaMXtTCqSrdBWda_2ONIqgx0y2SsFx66eEi-H-9oSFQQJYHTg4wOZkp1yuQAAAAGA_uAYAA")
+    SESSION = os.environ.get("SESSION", "Forward")
     TO_CHANNEL = int(os.environ.get("TO_CHANNEL", ""))
     BOT_USERNAME= os.environ.get("BOT_USERNAME", None)
 
